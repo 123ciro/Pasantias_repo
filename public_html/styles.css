@@ -91,7 +91,7 @@ header {
 }
 /* el menu horizontal SUS ESTILOS */
 header nav {
-    background:#FF6C18;
+    background:linear-gradient(#FF6C18, orange);
     z-index:1000;
     max-width: 1400px;
     width:100%;
