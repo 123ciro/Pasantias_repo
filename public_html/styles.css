@@ -8,7 +8,7 @@ ul.acorh {
     font-size: 18px;
     position: absolute;
     height: 100%;
-    background: chocolate;
+    background: red;;
     
    
 }
@@ -21,8 +21,8 @@ ul.acorh li {
 ul.acorh li a {
     display: block;
     padding: 10px 10px 10px 20px;
-    background: chocolate;
-    color: #eee;
+    background: red;
+    color: #D7D7D7;
     text-decoration: none;
     
 
@@ -41,7 +41,7 @@ ul.acorh li ul {
 /* color de las letras y del fondo de los submenus tambien el tipo de tamaño */
 ul.acorh li li a {
     padding: 10px 10px 10px 20px;
-    background: #999;
+    background: #CBC9C8;
     color: black;
     font-size: 16px;
     border: 0;
@@ -56,8 +56,8 @@ ul.acorh li:hover ul {
 }
 /*cuando se ponga el mause por el menu, el color de fondo se pondra color beige y las letras azules */
 ul.acorh li a:hover {
-    background: beige;
-    color: blue;
+    background: #FFAE5D;
+    color: black;
 }
 
 
@@ -88,11 +88,11 @@ header {
 }
 /* el menu horizontal SUS ESTILOS */
 header nav {
-    background:#023859;
+    background:#FF6C18;
     z-index:1000;
-    max-width: 1000px;
-    width:95%;
-    margin:20px auto;
+    max-width: 1400px;
+    width:100%;
+    margin:3px auto;
 
 }
 /*ESTILOS DE LAS LISTAS: SIN ESTILOS */
@@ -109,11 +109,11 @@ header nav ul li {
 }
 /* COLOR DE FONDO DEL MENU AL UBICAR EL CURSOS ENCIMA DEL MISMO*/
 header nav ul li:hover {
-    background:#E6344A;
+    background: #C9540D;
 }
 /* ESILOS DE LOS TEXTOS DEL MENU PRINCIPAL*/
 header nav ul li a {
-    color:#fff;
+    color:black;
     display:block;
     text-decoration:none;
     padding: 20px;
@@ -127,7 +127,7 @@ header nav ul li:hover .children {
 /* AL DESPLEGARSE TENDRA LAS SIGUIENTES CARACTERISTICAS */
 header nav ul li .children {
     display: none;
-    background:#011826;
+    background:#F2402B;
     position: absolute;
     width: 150%;
     z-index:1000;
@@ -146,7 +146,7 @@ header nav ul li .children li a {
 header nav ul li .children li a span {
     float: right;
     position: relative;
-    top:3px;
+    top:4px;
     margin-right:0;
     margin-left:10px;
 }
@@ -182,20 +182,20 @@ header nav ul li .caret {
         width:100%;
         position: fixed;
         top:0;
-        background:#023859;
+        background:#FF6C18;
     }
     .menu_bar .bt-menu   {
         display: block;
         padding: 20px;
         color: #fff;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         text-decoration: none;
     }
     /* COntenido del menu despegablee    */  
     header nav   {
         display: block;
-        width: 40%;
+        width: 30%;
         height: 100%;
         position: fixed;
         right:100%;
@@ -285,6 +285,10 @@ ul.acorh2 li a:hover {
     color: blue;
 }
 /*CUANDO EL MENU COLAPSADO ES ACHICADO CAMBIA SUS TAMAÑOS*/
+
+p {
+    text-align: justify;
+}
 
 @media screen and (max-width: 750px) {
     
