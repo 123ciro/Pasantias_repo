@@ -1,4 +1,7 @@
-
+h1{
+    text-align: center;
+    color: orange;
+}
 
 /* el siguiente codigo es para el menu vertical en si, el tamaño de letra, su tamaño al iniciar*/
 ul.acorh {
